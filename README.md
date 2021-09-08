@@ -66,13 +66,32 @@ WordPress  | [Syntaxhighlighter-for-q](https://github.com/simongarland/Syntaxhig
 * [kdb-tick](https://github.com/KxSystems/kdb-tick) – [tickerplant](kb/kdb-tick.md)
 
 
+## Cloud deployment
+
+KX Insights provides tools for deploying kdb+ systems in the cloud.
+
+* [kdb+ Cloud Edition](https://code.kx.com/insights/cloud-edition/): 
+    * packaging
+    * orchestration
+    * REST interfaces
+    * logging
+    * object storage
+    * Google BigQuery
+* [Microservices](https://code.kx.com/insights/microservices/): an ecosystem of cloud-native microservices, built with kdb+ Cloud Edition, all with OpenAPI specifications
+    * service discovery
+    * data access
+    * service gateway
+    * storage manager
+    * stream processor
+    * dashboards
+
+
 ## Developer tools
 
-* [amcharts](https://github.com/kxcontrib/cburke/tree/master/amcharts/) – A set of flash charts designed for Web applications
 * [dpy](https://github.com/LeslieGoldsmith/dpy) – General object display with type and structure
 * [help](https://github.com/KxSystems/help) – Online help for q
 * [kdb](https://github.com/KxSystems/kdb) – Companion files to the kdb+ product
-* [man](https://github.com/KxSystems/man) – [man-style reference](https://code.kx.com/q/about/man.md) – 
+* [man](https://github.com/KxSystems/man) – [man-style reference](https://code.kx.com/q/about/man.md) 
 * [qprof](https://github.com/LeslieGoldsmith/qprof) – Code profiler 
 * [studio](https://github.com/CharlesSkelton/studio) – A rapid-development environment for q
 * [ws](https://github.com/LeslieGoldsmith/ws) – Workspace utilities
@@ -81,6 +100,7 @@ WordPress  | [Syntaxhighlighter-for-q](https://github.com/simongarland/Syntaxhig
 ## Miscellaneous
 <!-- Divide as it grows -->
 
+* [amcharts](https://github.com/kxcontrib/cburke/tree/master/amcharts/) – A set of flash charts designed for Web applications
 * [hypertree](https://github.com/stevanapter/hypertree) – Recursive aggregating treetable and 3-D pivot table for hypergrid
 * [Kdb+stuff](https://github.com/MdSalih/Kdb-stuff) – ServerChecker: how to execute commands on a remote box via SSH from within a q process and parse Linux system info (cpuinfo/meminfo/df)
 * [ml](https://github.com/KxSystems/ml) – [Machine-Learning Toolkit](https://code.kx.com/q/ml/toolkit/)
