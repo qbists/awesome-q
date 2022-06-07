@@ -7,6 +7,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
 Repositories at [KxSystems](https://github.com/KxSystems) are maintained and supported by KX. Other repositories are maintained by their owners.
 
+
 ## :fireworks: Fusion interfaces
 
 The [Fusion interface libraries](https://code.kx.com/q/interfaces/fusion/) are maintained and supported by KX.
@@ -34,25 +35,28 @@ Solace | [solace](https://github.com/KxSystems/solace) | [Solace pub/sub brokers
 
 to     | source | note
 -------|--------|-----
-C | | [C client for kdb+](https://code.kx.com/q/interfaces/c-client-for-q/)
-Excel | [excelrtd](https://github.com/CharlesSkelton/excelrtd) | [Microsoft Excel™ client for kdb+](https://code.kx.com/q/interfaces/excel-client-for-q/)
-Java | [jshow](https://github.com/CharlesSkelton/jshow) 
+C | [KxSystems/kdb](https://github.com/KxSystems/kdb) | [C client for kdb+](https://code.kx.com/q/interfaces/c-client-for-q/)
+C# | [kxcontrib/csharpgui](https://github.com/kxcontrib/csharpgui) | C# GUI
+Excel | [CharlesSkelton/excelrtd](https://github.com/CharlesSkelton/excelrtd) | [Microsoft Excel™ client for kdb+](https://code.kx.com/q/interfaces/excel-client-for-q/)
+FITS | [jpneill/fitsToKdb](https://github.com/jpneill/fitsToKdb) | access tables in NASA FITS files
+Java | [CharlesSkelton/jshow](https://github.com/CharlesSkelton/jshow) 
 JavaScript | | [WebSockets](https://code.kx.com/q/kb/websockets/)
-JDBC | [babel](https://github.com/CharlesSkelton/babel) | query other databases via JDBC
-Lua | [qlua](https://github.com/geocar/qlua) | q client for Lua
+JDBC | [CharlesSkelton/babel](https://github.com/CharlesSkelton/babel) | query other databases via JDBC
+Lua | [geocar/qlua](https://github.com/geocar/qlua) | q client for Lua
 Mathematica | [KxSystems/kdb](https://github.com/KxSystems/kdb/blob/master/c/other/qmathematica.txt) | Mathematica5 -> Q interface
-ODBC |  | [ODBC](https://code.kx.com/q/interfaces/q-client-for-odbc/)
-NaCL | [qsalt](https://github.com/geocar/qsalt) | NaCL bindings for q/kdb
-NodeJS | [qnode](https://github.com/geocar/qnode) | kdb+ client in NodeJS
-ODBC | | [kdb+ server for ODBC3](https://code.kx.com/q/interfaces/q-server-for-odbc3/)
-PHP | [qphp](https://github.com/geocar/qphp) | kdb+ IPC implementation for PHP
+ODBC |  | [client for ODBC](https://code.kx.com/q/interfaces/q-client-for-odbc/)
+NaCL | [geocar/qsalt](https://github.com/geocar/qsalt) | NaCL bindings for q/kdb
+NodeJS | [geocar/qnode](https://github.com/geocar/qnode) | kdb+ client in NodeJS
+ODBC | | [server for ODBC3](https://code.kx.com/q/interfaces/q-server-for-odbc3/)
+PHP | [geocar/qphp](https://github.com/geocar/qphp) | kdb+ IPC implementation for PHP
+WebSockets | [kxcontrib/websocket](https://github.com/kxcontrib/websocket)
 
 
 ## Editor integrations
 
 editor | source | note
 -------|--------|-----
-Emacs  | [kq-mode](https://github.com/geocar/kq-mode) | q major mode for emacs; supports tramp and babel
+Emacs  | [kq-mode](https://github.com/geocar/kq-mode) | q major mode for Emacs; supports Tramp and Babel
 Emacs  | [q-mode](https://github.com/psaris/q-mode) | major mode for editing q
 Evolved  | [Syntaxhighlighter-for-q](https://github.com/simongarland/Syntaxhighlighter-for-q)
 TextMate  | [KX.tmbundle](https://github.com/psaris/KX.tmbundle) | q language support for TextMate 2
@@ -70,47 +74,81 @@ WordPress  | [Syntaxhighlighter-for-q](https://github.com/simongarland/Syntaxhig
 
 KX Insights provides tools for deploying kdb+ systems in the cloud.
 
-* [kdb+ Cloud Edition](https://code.kx.com/insights/cloud-edition/): 
+* [KX Insights Core](https://code.kx.com/insights/core/): 
     * packaging
     * orchestration
     * REST interfaces
     * logging
     * object storage
     * Google BigQuery
-* [Microservices](https://code.kx.com/insights/microservices/): an ecosystem of cloud-native microservices, built with kdb+ Cloud Edition, all with OpenAPI specifications
+* [KX Insights Microservices](https://code.kx.com/insights/microservices/): an ecosystem of cloud-native microservices, built with kdb+ Cloud Edition, all with OpenAPI specifications
     * service discovery
     * data access
     * service gateway
     * storage manager
     * stream processor
     * dashboards
+* [kxcontrib/cloud-autoscaling](https://github.com/kxcontrib/cloud-autoscaling) – cloud autoscaling
+
+
+## Database admin and devops
+
+* [kxcontrib/BigQueryKdbInteroperability](https://github.com/kxcontrib/BigQueryKdbInteroperability) – Transferring data to and from BigQuery
+* [kxcontrib/kdbAlertTP](https://github.com/kxcontrib/kdbAlertTP) – Tickerplant set-up to test Alert Monitor
+* [MdSalih/Kdb-stuff](https://github.com/MdSalih/Kdb-stuff) – ServerChecker: how to execute commands on a remote box via SSH from within a q process and parse Linux system info (cpuinfo/meminfo/df)
+* [kxcontrib/massIngestionDataloader](https://github.com/kxcontrib/massIngestionDataloader) – Mass data ingestion
+* [jfealy/q](https://github.com/jfealy/q) – Database and log utilities
 
 
 ## Developer tools
 
-* [dpy](https://github.com/LeslieGoldsmith/dpy) – General object display with type and structure
-* [help](https://github.com/KxSystems/help) – Online help for q
-* [kdb](https://github.com/KxSystems/kdb) – Companion files to the kdb+ product
-* [man](https://github.com/KxSystems/man) – [man-style reference](https://code.kx.com/q/about/man.md) 
-* [qprof](https://github.com/LeslieGoldsmith/qprof) – Code profiler 
-* [studio](https://github.com/CharlesSkelton/studio) – A rapid-development environment for q
-* [ws](https://github.com/LeslieGoldsmith/ws) – Workspace utilities
+* [LeslieGoldsmith/dpy](https://github.com/LeslieGoldsmith/dpy) – General object display with type and structure
+* [KxSystems/help](https://github.com/KxSystems/help) – Online help for q
+* [KxSystems/kdb](https://github.com/KxSystems/kdb) – Companion files to the kdb+ product
+* [KxSystems/man](https://github.com/KxSystems/man) – [man-style reference](https://code.kx.com/q/about/man.md) 
+* [gitrj95/q-memo](https://github.com/gitrj95/q-memo) – memoize functions that are expensive to compute
+* [LeslieGoldsmith/qprof](https://github.com/LeslieGoldsmith/qprof) – Code profiler 
+* [Charles/Skelton/studio](https://github.com/CharlesSkelton/studio) – A rapid-development environment for q
+* [LeslieGoldsmith/ws](https://github.com/LeslieGoldsmith/ws) – Workspace utilities
+
+
+## FinTech
+
+* [BrianOSu/qlibs](https://github.com/BrianOSu/qlibs) – [Binance](https://www.binance.com/en) interface
+* [finos/kdb](https://github.com/finos/kdb) – Common standards, tools, and libraries to facilitate collaborative development, ease artifact reuse, and improve usability and administration of kdb+ software in enterprise deployments
+* [kxcontrib/market-fragmentation](https://github.com/kxcontrib/market-fragmentation) – Analyse market fragmentation
+* [dmorgankx/optionpricing](https://github.com/dmorgankx/optionpricing) – Option pricing
+
+
+## Machine learning
+
+* [kxcontrib/wp-knn](https://github.com/kxcontrib/wp-knn) – K Nearest Neighbors
+* [KxSystems/ml](https://github.com/KxSystems/ml) – [Machine-Learning Toolkit](https://code.kx.com/q/ml/toolkit/)
 
 
 ## Miscellaneous
 <!-- Divide as it grows -->
 
-* [amcharts](https://github.com/kxcontrib/cburke/tree/master/amcharts/) – A set of flash charts designed for Web applications
-* [hypertree](https://github.com/stevanapter/hypertree) – Recursive aggregating treetable and 3-D pivot table for hypergrid
-* [Kdb+stuff](https://github.com/MdSalih/Kdb-stuff) – ServerChecker: how to execute commands on a remote box via SSH from within a q process and parse Linux system info (cpuinfo/meminfo/df)
-* [ml](https://github.com/KxSystems/ml) – [Machine-Learning Toolkit](https://code.kx.com/q/ml/toolkit/)
+* [cburke/amcharts](https://github.com/kxcontrib/cburke/tree/master/amcharts/) – A set of flash charts designed for Web applications
+* [quintanar401/DCoQ](https://github.com/quintanar401/DCoQ) – ‘Dark corners’ of q
+* [skeevey/fb.q](https://github.com/skeevey/fb.q) – Flappy birds clone in q for Linux
+* [stevanapter/hypertree](https://github.com/stevanapter/hypertree) – Recursive aggregating treetable and 3-D pivot table for hypergrid
+* [BuaBook/kdb-common](https://github.com/BuaBook/kdb-common) – Miscellaneous production libraries
+* [kxcontrib/oauth2](https://github.com/kxcontrib/oauth2) – OAuth2
+* [rianoc/qCam](https://github.com/rianoc/qCam) – Image capture and manipulation on a Raspberry Pi 
+* [emc211/qGames](https://github.com/emc211/qGames) – Games: Battleship, chess, Minesweeper, poker
+* [kxcontrib/q-signals](https://github.com/kxcontrib/q-signals) – Signal processing
+* [CillianReilly/qtools](https://github.com/CillianReilly/qtools) – Development tools
+* [kxcontrib/trend-indicators](https://github.com/kxcontrib/trend-indicators) – Trend indicators
+* [AngusWilson/whatStats](https://github.com/AngusWilson/whatStats) – Analyse WhatsApp chat logs
+
 
 
 ## Training 
 
-* [analyst-training](https://github.com/kxsystems/analyst-training) – Training for [KX Analyst](https://code.kx.com/analyst/) and [KX Developer](https://code.kx.com/developer/) 
-* [cookbook](https://github.com/KxSystems/cookbook) – Companion files to the Knowledge Base
-* [mlnotebooks](https://github.com/KxSystems/mlnotebooks) – [Machine-Learning notebooks](https://code.kx.com/q/ml/notebooks/)
-* [nlp](https://github.com/KxSystems/nlp) – Demonstration notebook for [natural-language processing](https://code.kx.com/q/ml/nlp/)
-* [phrases](https://github.com/kxcontrib/phrases) – The Q Phrasebook
+* [KxSystems/analyst-training](https://github.com/kxsystems/analyst-training) – Training for [KX Analyst](https://code.kx.com/analyst/) and [KX Developer](https://code.kx.com/developer/) 
+* [KxSystems/cookbook](https://github.com/KxSystems/cookbook) – Companion files to the Knowledge Base
+* [KxSystems/mlnotebooks](https://github.com/KxSystems/mlnotebooks) – [Machine-Learning notebooks](https://code.kx.com/q/ml/notebooks/)
+* [KxSystems/nlp](https://github.com/KxSystems/nlp) – Demonstration notebook for [natural-language processing](https://code.kx.com/q/ml/nlp/)
+* [kxcontrib/phrases](https://github.com/kxcontrib/phrases) – The Q Phrasebook
 
