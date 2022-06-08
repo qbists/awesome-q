@@ -25,7 +25,7 @@ MQTT | [mqtt](https://github.com/KxSystems/mqtt) | [Message Queuing Telemetry Tr
 Prometheus | [prometheus-kdb-exporter](https://github.com/KxSystems/prometheus-kdb-exporter) | [Expose metrics to Prometheus](https://code.kx.com/q/interfaces/prom/exporter/)
 Protocol Buffers | [protobuf](https://github.com/KxSystems/protobufkdb) | [Protobuf](https://code.kx.com/q/interfaces/protobuf/)
 Python | [embedPy](https://github.com/KxSystems/embedPy) | [call Python from q](https://code.kx.com/q/ml/embedpy/)
-Python | [pyq](https://github.com/KxSystems/pyq) | [call Python from q](https://code.kx.com/q/interfaces/pyq/)
+Python | [pyq](https://github.com/KxSystems/pyq) | [call q from Python](https://code.kx.com/q/interfaces/pyq/)
 R | [rkdb](https://github.com/KxSystems/rkdb) | [R client for q](https://code.kx.com/q/interfaces/r/)
 Reuters | [kdb/c](https://github.com/KxSystems/kdb/blob/master/c/feed/rfa.zip)
 Solace | [solace](https://github.com/KxSystems/solace) | [Solace pub/sub brokers](https://code.kx.com/q/interfaces/solace/)
@@ -45,6 +45,7 @@ JDBC | [CharlesSkelton/babel](https://github.com/CharlesSkelton/babel) | query o
 Lua | [geocar/qlua](https://github.com/geocar/qlua) | q client for Lua
 Mathematica | [KxSystems/kdb](https://github.com/KxSystems/kdb/blob/master/c/other/qmathematica.txt) | Mathematica5 -> Q interface
 ODBC |  | [client for ODBC](https://code.kx.com/q/interfaces/q-client-for-odbc/)
+Python | [PyKX](https://code.kx.com/pykx/)<br>[qPython](https://qpython.readthedocs.io/en/latest/)
 NaCL | [geocar/qsalt](https://github.com/geocar/qsalt) | NaCL bindings for q/kdb
 NodeJS | [geocar/qnode](https://github.com/geocar/qnode) | kdb+ client in NodeJS
 ODBC | | [server for ODBC3](https://code.kx.com/q/interfaces/q-server-for-odbc3/)
@@ -56,11 +57,11 @@ WebSockets | [kxcontrib/websocket](https://github.com/kxcontrib/websocket)
 
 editor | source | note
 -------|--------|-----
-Emacs  | [kq-mode](https://github.com/geocar/kq-mode) | q major mode for Emacs; supports Tramp and Babel
-Emacs  | [q-mode](https://github.com/psaris/q-mode) | major mode for editing q
-Evolved  | [Syntaxhighlighter-for-q](https://github.com/simongarland/Syntaxhighlighter-for-q)
-TextMate  | [KX.tmbundle](https://github.com/psaris/KX.tmbundle) | q language support for TextMate 2
-vim  | [vim](https://github.com/simongarland/vim) | vim support for q
+Emacs  | [geocar/kq-mode](https://github.com/geocar/kq-mode) | major mode for Emacs; supports Tramp and Babel<br>[psaris/q-mode](https://github.com/psaris/q-mode)
+Evolved  | [simongarland/Syntaxhighlighter-for-q](https://github.com/simongarland/Syntaxhighlighter-for-q)
+TextMate  | [psaris/KX.tmbundle](https://github.com/psaris/KX.tmbundle)
+vim  | [simongarland/vim](https://github.com/simongarland/vim)
+Visual Studio Code | [jshinonome/vscode-q](https://github.com/jshinonome/vscode-q)
 WordPress  | [Syntaxhighlighter-for-q](https://github.com/simongarland/Syntaxhighlighter-for-q)
 
 
@@ -98,6 +99,7 @@ KX Insights provides tools for deploying kdb+ systems in the cloud.
 * [MdSalih/Kdb-stuff](https://github.com/MdSalih/Kdb-stuff) – ServerChecker: how to execute commands on a remote box via SSH from within a q process and parse Linux system info (cpuinfo/meminfo/df)
 * [kxcontrib/massIngestionDataloader](https://github.com/kxcontrib/massIngestionDataloader) – Mass data ingestion
 * [jfealy/q](https://github.com/jfealy/q) – Database and log utilities
+* [gyorokpeter/qbinparse](https://github.com/gyorokpeter/qbinparse) – Customizable binary data parser
 
 
 ## Developer tools
@@ -108,6 +110,7 @@ KX Insights provides tools for deploying kdb+ systems in the cloud.
 * [KxSystems/man](https://github.com/KxSystems/man) – [man-style reference](https://code.kx.com/q/about/man.md) 
 * [gitrj95/q-memo](https://github.com/gitrj95/q-memo) – memoize functions that are expensive to compute
 * [LeslieGoldsmith/qprof](https://github.com/LeslieGoldsmith/qprof) – Code profiler 
+* [CillianReilly/qtools](https://github.com/CillianReilly/qtools) – Development tools
 * [Charles/Skelton/studio](https://github.com/CharlesSkelton/studio) – A rapid-development environment for q
 * [LeslieGoldsmith/ws](https://github.com/LeslieGoldsmith/ws) – Workspace utilities
 
@@ -128,7 +131,6 @@ KX Insights provides tools for deploying kdb+ systems in the cloud.
 
 ## Miscellaneous
 <!-- Divide as it grows -->
-
 * [cburke/amcharts](https://github.com/kxcontrib/cburke/tree/master/amcharts/) – A set of flash charts designed for Web applications
 * [quintanar401/DCoQ](https://github.com/quintanar401/DCoQ) – ‘Dark corners’ of q
 * [skeevey/fb.q](https://github.com/skeevey/fb.q) – Flappy birds clone in q for Linux
@@ -138,10 +140,10 @@ KX Insights provides tools for deploying kdb+ systems in the cloud.
 * [rianoc/qCam](https://github.com/rianoc/qCam) – Image capture and manipulation on a Raspberry Pi 
 * [emc211/qGames](https://github.com/emc211/qGames) – Games: Battleship, chess, Minesweeper, poker
 * [kxcontrib/q-signals](https://github.com/kxcontrib/q-signals) – Signal processing
-* [CillianReilly/qtools](https://github.com/CillianReilly/qtools) – Development tools
+* [gyorokpeter/qx86](https://github.com/gyorokpeter/qx86) – x86 assembler, disassembler and emulator
 * [kxcontrib/trend-indicators](https://github.com/kxcontrib/trend-indicators) – Trend indicators
 * [AngusWilson/whatStats](https://github.com/AngusWilson/whatStats) – Analyse WhatsApp chat logs
-
+* [gyorokpeter/qtcp](https://github.com/gyorokpeter/qtcp) – Open raw TCP connections in-process for q to communicate through
 
 
 ## Training 
