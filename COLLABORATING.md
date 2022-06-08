@@ -16,12 +16,12 @@ Please work through the following checklist when reviewing a project:
 
 - Tag pull requests with the most relevant label(s).
 - Confirm URLs work correctly and don’t point to anything malicious.
-- Ensure suggestions adhere to [CONTRIBUTING](https://github.com/ziadoz/awesome-php/blob/master/CONTRIBUTING.md).
+- Ensure suggestions adhere to [CONTRIBUTING](https://github.com/StephenTaylor-Kx/awesome-q/blob/master/CONTRIBUTING.md).
 
 ## Enhancements
 If you have an idea on how to improve the project, please open a ticket for discussion using the `Enhancement` label. Please don’t make any broad or sweeping changes without consulting other collaborators first and reaching a consensus.
 
 ## Join
-If you want to help out please send an email to librarian [at] kx [dot] com with the subject “Awesome Q collaborator” and a link to your GitHub account and I’ll get back to you as soon as I can. (I’m notoriously slow, sorry).
+If you want to help out please send an email to sjt [at] 5jt [dot] com with the subject “Awesome Q collaborator” and a link to your GitHub account and I’ll get back to you as soon as I can. (I’m notoriously slow, sorry).
 
 Thank you for taking the time to help out with Awesome Q; your help is appreciated!

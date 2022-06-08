@@ -3,7 +3,7 @@
 Unfortunately, not every library, tool or framework can be considered for inclusion. The aim of Awesome Q is to be a concise list of noteworthy and interesting software written in q. Therefore, suggested software should:
 
 1. be widely recommended
-2. well known or discussed within the PHP community
+2. well known or discussed within the q community
 3. be unique in its approach or function
 4. Fill a niche gap in the market
 
