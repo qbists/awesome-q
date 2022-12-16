@@ -146,6 +146,7 @@ KX Insights provides tools for deploying kdb+ systems in the cloud.
 * [kxcontrib/trend-indicators](https://github.com/kxcontrib/trend-indicators) – Trend indicators
 * [AngusWilson/whatStats](https://github.com/AngusWilson/whatStats) – Analyse WhatsApp chat logs
 * [gyorokpeter/qtcp](https://github.com/gyorokpeter/qtcp) – Open raw TCP connections in-process for q to communicate through
+* [davidcrossey/kdb-haversine](https://github.com/davidcrossey/kdb-haversine) – Haversine for q (forked from [andymans/kdb-haversine](https://github.com/andymans/kdb-haversine))
 
 
 ## Training 
